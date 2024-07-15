@@ -13,6 +13,8 @@ print(round(x / y, 2))  # -1.25
 print(round(x / y, 0))  # -1.0
 print(round(x / y))     # 1
 print(round(500 / 4))
+print(round(500 / 4, -1))
+print(round(500 / 4, -2))
 
 # возвращает наибольшее значение из указанных.
 print(max(x, y))
