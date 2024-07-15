@@ -15,3 +15,4 @@ print(bool(0.0))
 # string
 print(bool('abc'))
 print(bool(' '))
+print(bool(''))

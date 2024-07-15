@@ -12,4 +12,6 @@ not (A and B) == not A or not B
 A = {1, 2, 3, 4}
 B = {3, 4, 5, 6}
 
-print(not A or not B)
+print(not A)  # False
+print(not B)  # False
+print(not A or not B)  # False
