@@ -6,14 +6,17 @@
 """
 
 SECONDS_IN_MIN = 60
-SECONDS_IN_HOUR = ...
-SECONDS_IN_DAY = ...
+SECONDS_IN_HOUR = 60 * SECONDS_IN_MIN
+SECONDS_IN_DAY = 24 * SECONDS_IN_HOUR
 
-days = (input("Введите количество дней: "))
-hours = (input("Введите количество часов: "))
-minutes = (input("Введите количество минут: "))
-seconds = (input("Введите количество секунд: "))
+days = int(input("Введите количество дней: "))
+hours = int(input("Введите количество часов: "))
+minutes = int(input("Введите количество минут: "))
+seconds = int(input("Введите количество секунд: "))
 
-total_seconds = ...
+total_seconds = (days * SECONDS_IN_DAY
+                 + hours * SECONDS_IN_HOUR
+                 + minutes * SECONDS_IN_MIN
+                 + seconds)
 
 print(f"Общее время в секундах: {total_seconds}")
