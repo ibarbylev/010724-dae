@@ -21,4 +21,4 @@ elif x > 0:
 else:
     print("x меньше или равно 5")
 
-print('current line')
+print("current line")
