@@ -6,10 +6,10 @@
 """
 
 value = input('Введите "True" или "False": ')
-if value == "True":
-    value_bool = True
-else:
-    value_bool = None
+# if value == "True":
+#     value_bool = True
+# else:
+#     value_bool = False
 
 
 value_bool = True if value == "True" else False
