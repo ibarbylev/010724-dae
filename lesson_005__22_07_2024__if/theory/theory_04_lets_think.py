@@ -15,7 +15,16 @@
 
 """
 
-other_options = ...
 
-if ...:
-    pass
+other_options = "О?"
+
+if other_options == "Солнечно ли?":
+    print("Сегодня солнечно.")
+elif other_options == "Идёт ли снег?":
+    print("Сегодня идёт снег.")
+elif other_options == "Сильный ветер?":
+    print("Сегодня сильный ветер.")
+elif other_options == "Облачно?":
+    print("Сегодня облачно.")
+else:
+    print('Ничего не подошло )))')
