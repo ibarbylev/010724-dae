@@ -45,8 +45,9 @@ def convert_float_to_binary(number: float, precision=23, size_bit=32) -> str:
 
     return total_bin
 
+
 if __name__ == '__main__':
-    print(convert_float_to_binary(0.4))
-    print(convert_decimal_fractional_to_binary(0.4))
+    print(convert_float_to_binary(44.102))
+    # print(convert_decimal_fractional_to_binary(0.4))
 
 
