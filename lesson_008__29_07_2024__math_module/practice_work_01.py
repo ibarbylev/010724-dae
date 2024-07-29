@@ -16,11 +16,11 @@ S = n * a^2 / (4 * tg(PI/n))
 
 """
 
-import math
+from math import tan as tg, pi as PI
 
 n, a = 5, 3.5
 
-area = (n * a ** 2) / (4 * math.tan(math.pi / n))
+area = (n * a ** 2) / (4 * tg(PI / n))
 
 print(area)
 # 21.075848157214846
